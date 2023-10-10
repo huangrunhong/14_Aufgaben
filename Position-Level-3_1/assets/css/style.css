@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Ubuntu;
+  src: url(./../fonts/Ubuntu-Regular.ttf);
+}
+
+body {
+  background-color: #181818;
+  max-width: 1440px;
+
+  height: 100vh;
+  margin-inline: auto;
+}
+header nav {
+  height: 60px;
+  border-bottom: 1px solid #727577;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+nav p {
+  position: absolute;
+  font-family: Monoton;
+  font-size: 36px;
+  top: 5px;
+  left: 72px;
+  color: #727577;
+}
+
+nav > a {
+  position: absolute;
+  font-family: Ubuntu;
+  top: 26px;
+  left: 144px;
+  text-decoration: none;
+  color: #727577;
+}
+
+nav a:hover {
+  color: #f1f1f1e1;
+}
+
+nav ul {
+  width: 782px;
+  position: absolute;
+  top: 16px;
+  left: 542px;
+  right: 115px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+nav ul li {
+  display: block;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #727577;
+}
+main {
+  position: relative;
+}
+main h1 {
+  position: absolute;
+  top: 340px;
+  left: 216px;
+  color: #f1f1f1c0;
+  font-family: Ubuntu;
+  font-size: 60px;
+  width: 350px;
+}
+main p {
+  position: absolute;
+  top: 560px;
+  left: 260px;
+  font-family: Ubuntu;
+  font-size: 12px;
+  color: #b0805d;
+}
+
+main div {
+  position: absolute;
+  top: 256px;
+  left: 633px;
+  display: flex;
+  gap: 38px;
+  overflow: hidden;
+}
+
+footer {
+  position: relative;
+}
+
+footer ul {
+  position: absolute;
+  left: 78px;
+  top: 900px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+}
+
+footer button:nth-of-type(1) {
+  position: absolute;
+  border: 2px solid #b0805d;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 16px 20px;
+  border-radius: 30px;
+  color: #727577;
+  top: 890px;
+  left: 1256px;
+  font-size: 14px;
+}
+
+footer button:nth-of-type(2) {
+  position: absolute;
+  border: 2px solid #b0805d;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 16px 20px;
+  border-radius: 30px;
+  color: #727577;
+  top: 890px;
+  left: 1344px;
+  font-size: 14px;
+}
